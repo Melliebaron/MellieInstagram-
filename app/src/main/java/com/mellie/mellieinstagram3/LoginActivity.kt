@@ -62,7 +62,7 @@ class LoginActivity : AppCompatActivity() {
     private fun goToMainActivity(){
         val intent= Intent(this@LoginActivity,MainActivity::class.java)
         startActivity(intent)
-        finish()
+
     }
     companion object{
         const val TAG="LoginActivity"
